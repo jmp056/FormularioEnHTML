@@ -2,8 +2,8 @@
     <Head>
 
     </Head>
-    <body>
-        <div> <!--Sirve para dividir el espacio en pantlla-->
+    <body style="text-align: center">
+        <div style="margin: 0 auto; width: 350px; background-color: aqua; padding: 40px"> <!--Sirve para dividir el espacio en pantlla-->
             <form> <!--Especifica que es un formulario-->
                 <h1>Datos de cedula</h1>
 
@@ -27,7 +27,6 @@
 
                 <!--Lugar de nacimiento-->
                 <label for="Nacimiento--">Lugar de nacimiento:</label>
-                <br>
                 <select> <!--Etiqueta para los seleccionadores de opcion-->
                     <option value="1"> San Francisco de Macoris</option><!--Modo de realizar las opciones-->
                     <option value="2"> Castillo</option>
@@ -46,7 +45,6 @@
 
                 <!--Estado civil-->
                 <label for="EstadoCivil">EstadoCivil:</label>
-                <br>
                 <select> 
                     <option value="S"> Soltero</option>
                     <option value="C"> Casado</option>
@@ -63,6 +61,7 @@
                 <br>
                 <input type="radio" name="Sexo" value="F">Femenino
                 <br>
+                <br>
 
                 <!--Pasatiempo Favorito-->
                 <label for="PasaTiempoFavorito"> Pasa tiempo favorito: </label>
@@ -76,6 +75,12 @@
                 <input type="checkbox" name="Comer" value="Comer">Comer
                 <br>
                 <input type="checkbox" name="Dormir" value="Dormir">Dormir
+                <br>
+                <br>
+
+                <!--Boton de tipo enviar-->
+                <button type="submit">Guardar</button>  <!--Este tipo de boton es el que envia el formulario-->
+                
             </form>
         </div>
     </body>
